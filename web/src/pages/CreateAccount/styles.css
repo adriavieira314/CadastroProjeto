@@ -84,30 +84,6 @@ label {
     color: #ccc;
 }
 
-ul {
-    display: flex;
-    margin-bottom: 20px;
-}
-
-li {
-    list-style-type: none;
-    margin: 0  20px;
-    border: 2px solid #ccc;
-    border-radius: 50%;
-    width: 30px;
-    height: 30px;
-    padding: 0;
-}
-
-li:hover {
-    background-color: #45cad0;
-}
-
-.react-icons-fa {
-    margin-top: 2px;
-    margin-left: 4.5px;
-}
-
 .btn:hover {
     background: #fff;
     color: #45cad0;

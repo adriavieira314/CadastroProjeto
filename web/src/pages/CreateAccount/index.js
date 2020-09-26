@@ -3,7 +3,6 @@ import './styles.css';
 import { Link } from 'react-router-dom';
 import api from '../../services/api';
 
-
 import { IoIosMail, IoIosPerson, IoIosLock } from 'react-icons/io';
 
 function CreateAccount() {

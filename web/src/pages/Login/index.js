@@ -4,7 +4,6 @@ import { Link, useHistory } from 'react-router-dom';
 import api from '../../services/api';
 
 import { IoIosMail, IoIosLock } from 'react-icons/io';
-import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from 'react-icons/fa';
 import 'animate.css';
 
 function Login() {
