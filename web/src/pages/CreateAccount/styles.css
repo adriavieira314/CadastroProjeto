@@ -1,0 +1,116 @@
+#container {
+    display: flex;
+    transition: all 0.5s linear;
+}
+
+#sign-in {
+    width: 40vw;
+    height: 100vh;
+    background: #45cad0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#sign-in h1, p {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#sign-in p {
+    font-size: 1.2em;
+    width: 290px;
+}
+
+.btn {
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 20px;
+    background: #45cad0;
+    color: #fff;
+}
+
+.btn:focus {
+    outline: none;
+}
+
+#sign-up {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#sign-up h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #45cad0;
+}
+
+#sign-up p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+.inputStyle {
+    width: 300px;
+    height: 40px;
+    margin-bottom: 10px;
+    background: #F5F5F5;
+    border: none;
+    flex: 1;
+}
+
+.inputStyle:focus {
+    outline: none;
+}
+
+#btn-submit {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    padding: 8px 8px 10.9px 10px;
+    background: #F5F5F5;
+}
+.react-icons {
+    vertical-align: middle;
+    color: #ccc;
+}
+
+ul {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+li {
+    list-style-type: none;
+    margin: 0  20px;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 0;
+}
+
+li:hover {
+    background-color: #45cad0;
+}
+
+.react-icons-fa {
+    margin-top: 2px;
+    margin-left: 4.5px;
+}
+
+.btn:hover {
+    background: #fff;
+    color: #45cad0;
+    border: 2px solid #45cad0;
+    transition: background 0.3s linear;
+}

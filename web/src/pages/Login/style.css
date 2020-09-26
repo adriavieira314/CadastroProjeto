@@ -1,0 +1,48 @@
+#container {
+    display: flex;
+    transition: all 0.5s linear;
+}
+
+#signIn {
+    width: 60vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    color: #45cad0;
+}
+
+#signIn h1 {
+    margin-bottom: 10px;
+    font-size: 2.5em;
+    color: #45cad0;
+}
+
+#signIn p {
+    font-size: 1.2em;
+    color: #ccc;
+}
+
+#signUp {
+    width: 40vw;
+    height: 100vh;
+    background: #45cad0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+#signUp h1, p {
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 3em;
+}
+
+#signUp p {
+    font-size: 1.2em;
+    width: 290px;
+}
