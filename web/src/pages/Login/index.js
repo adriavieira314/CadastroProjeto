@@ -45,14 +45,6 @@ function Login() {
             <div id='signIn'>
                 <h1>Sign in to have fun!</h1>
 
-                <ul>
-                    <li><FaFacebookF className='react-icons react-icons-fa'/></li>
-                    <li><FaGooglePlusG className='react-icons react-icons-fa' /></li>
-                    <li><FaLinkedinIn className='react-icons react-icons-fa' /></li>
-                </ul>
-
-                <p>Or use your email account</p>
-
                 <form id='create-account' onSubmit={handleSubmit}>
                     <label>
                         <IoIosMail className='react-icons' size='1.5em'  />

@@ -5,7 +5,6 @@ import api from '../../services/api';
 
 
 import { IoIosMail, IoIosPerson, IoIosLock } from 'react-icons/io';
-import { FaFacebookF, FaGooglePlusG, FaLinkedinIn } from 'react-icons/fa';
 
 function CreateAccount() {
     //Declarando um state para armazenar meus dados
@@ -53,14 +52,6 @@ function CreateAccount() {
 
             <div id='sign-up'>
                 <h1>Create Account</h1>
-
-                <ul>
-                    <li><FaFacebookF className='react-icons react-icons-fa'/></li>
-                    <li><FaGooglePlusG className='react-icons react-icons-fa' /></li>
-                    <li><FaLinkedinIn className='react-icons react-icons-fa' /></li>
-                </ul>
-
-                <p>Or use your email for registration</p>
 
                 <form id='create-account' onSubmit={handleSubmit}>
                     <label>
