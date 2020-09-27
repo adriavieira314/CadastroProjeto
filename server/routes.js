@@ -84,6 +84,7 @@ routes.delete('/users/:id', (req, res) => {
     });
 })
 
+let user = '';
 //Autenticação do usuário
 routes.post('/login', (req, res, next) => {
     passport.authenticate('local', {
@@ -91,6 +92,17 @@ routes.post('/login', (req, res, next) => {
         failureRedirect: '/error',
         failureFlash: false
     })(req, res, next);
+
+    user = req.body.email; //variavel user recebe o email do usuario logado
+});
+
+//Verifico se existe um email igual ao valor da variavel e retorno seu name 
+routes.get('/loggedUser', (req, res) => {
+    User.findOne({ email: user }).then((user) => {
+        res.send(user.name);
+    }).catch((err) => {
+        res.send(err);
+    })
 });
 
 module.exports = routes;
